@@ -10,9 +10,12 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, MatSliderModule, MatSidenavModule, BrowserAnimationsModule ],
   declarations: [ AppComponent, HelloComponent, IntroductionComponent, EducationComponent, SkillsComponent, ExperienceComponent, ProjectsComponent, TopBarComponent ],
   bootstrap:    [ AppComponent ]
 })
