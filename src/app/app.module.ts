@@ -9,10 +9,11 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, IntroductionComponent, EducationComponent, SkillsComponent, ExperienceComponent, ProjectsComponent ],
+  declarations: [ AppComponent, HelloComponent, IntroductionComponent, EducationComponent, SkillsComponent, ExperienceComponent, ProjectsComponent, TopBarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
